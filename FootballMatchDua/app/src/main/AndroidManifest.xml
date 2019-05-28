@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.hokagelab.www.footballmatchdua">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hokagelab.www.footballmatchdua.mainMenu.match.detailMatch.DetailFavoritMatch">
+        </activity>
+        <activity android:name=".MatchActivity">
+        </activity>
+        <activity android:name=".FavoritActivity">
+        </activity>
+        <activity android:name=".TeamsActivity">
+        </activity>
+        <activity android:name="com.hokagelab.www.footballmatchdua.mainMenu.teams.logoTeam.detailOverview.DetailsTeams">
+        </activity>
+        <activity android:name="com.hokagelab.www.footballmatchdua.mainMenu.teams.logoTeam.detailPlayers.DetailsPlayer">
+        </activity>
+        <activity android:name="com.hokagelab.www.footballmatchdua.mainMenu.match.SearchMatch">
+        </activity>
+        <activity android:name=".presenter.TeamActivity">
+        </activity>
+        <activity android:name="com.hokagelab.www.footballmatchdua.mainMenu.teams.SearchTeam">
+        </activity>
+        <activity android:name="com.hokagelab.www.footballmatchdua.mainMenu.favorit.favTeam.detailFav.DetailsFavoritTeam">
+        </activity>
+    </application>
+
+</manifest>

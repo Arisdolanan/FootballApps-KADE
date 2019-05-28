@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".mainMenu.teams.logoTeam.detailPlayers.DetailsPlayer">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+        <ImageView
+                android:id="@+id/fotoPlayer"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+    >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="Posisi"
+        />
+
+        <TextView
+                android:id="@+id/posisiPlayers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="nama"
+                android:layout_marginBottom="20dp"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Berat Badan"
+                android:textSize="14dp"
+        />
+        <TextView
+                android:id="@+id/beratPlayers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:text="nama"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:text="Tinggi Badan"
+                android:textSize="14dp"
+        />
+
+        <TextView
+                android:id="@+id/tinggiPlayers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="36dp"
+                android:text="nama"
+        />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="Overview"
+        />
+
+        <TextView
+                android:id="@+id/overviewPlayers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nama"
+        />
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
